@@ -17,7 +17,7 @@ The user can be able to
    $ git clone https://github.com/Jon00000/vod-app.git
    $ cd ./vod-app
    $ npm install
-   $ npm start           ## use 8080 port
+   $ npm start           ## use 8000 port
 ```
 Don't forget to set to Simulate Mobile Devices Mode in IE/Chrome if you want to test on mobile device.
 
