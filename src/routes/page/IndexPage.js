@@ -17,6 +17,7 @@ class IndexPage extends BaseComponent {
       <>
         <HeaderComponent {...this.props}></HeaderComponent>
         <Switch>
+          <Route path="/" exact component={LatestVediosComponent} />
           <Route path="/home" exact component={LatestVediosComponent} />
           <Route path="/his" exact component={HistoryVediosComponent} />
           <Route path="/player" exact component={PlayerVediosComponent} />
