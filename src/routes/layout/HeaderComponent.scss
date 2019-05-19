@@ -1,0 +1,13 @@
+.HeaderComponent{
+  padding: 0 15px;
+  line-height: 45px;
+  font-size: 18px;
+  background: #808080;
+  color: #fff;
+  .home{
+    text-align: left;
+  }
+  .history{
+    text-align: right;
+  }
+}

@@ -1,0 +1,11 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+:global(.slick-slide.slick-active.slick-center.slick-current) {
+  /* border: #aaa 1px dashed;
+  box-shadow: 0 0 8px rgba(81, 81,81,0.8); */
+  border: rgba(0,113,241,1) 1px solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(0,113,241,1);
+}
